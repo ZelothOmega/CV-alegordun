@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="cv-container">
-        <!-- Contenedor Verde -->
         <div class="left-side">
             <header>
                 <img src="cv.jpg" alt="Gordun Alejandro" class="profile-pic">
@@ -24,68 +23,23 @@
                 </ul>
             </section>
 
-            <section class="programming-languages">
-               <h2>Lenguajes de Programación</h2>
+            <section class="Certificados">
+               <h2>Certificaciones</h2>
 
                <div class="skill">
-                   <p>C#</p>
-                   <div class="progress-bar">
-                       <div class="progress" style="width: 80%;"></div>
+                   <div class="img">
+                       <a href="certificadoIAGenerativa.pdf" class="btn" target=”_blank” attribute style="color: #ff5733; text-decoration: none;">Certificado en IA generativa</a>
                    </div>
                </div>
 
                <div class="skill">
-                   <p>C++</p>
-                   <div class="progress-bar">
-                       <div class="progress" style="width: 76%;"></div>
-                   </div>
-               </div>
-
-               <div class="skill">
-                   <p>Java</p>
-                   <div class="progress-bar">
-                       <div class="progress" style="width: 78%;"></div>
-                   </div>
-               </div>
-
-               <div class="skill">
-                   <p>HTML</p>
-                   <div class="progress-bar">
-                       <div class="progress" style="width: 85%;"></div>
-                   </div>
-               </div>
-
-               <div class="skill">
-                   <p>CSS</p>
-                   <div class="progress-bar">
-                       <div class="progress" style="width: 85%;"></div>
-                   </div>
-               </div>
-
-               <div class="skill">
-                   <p>JavaScript</p>
-                   <div class="progress-bar">
-                       <div class="progress" style="width: 55%;"></div>
-                   </div>
-               </div>
-
-               <div class="skill">
-                   <p>PowerShell</p>
-                   <div class="progress-bar">
-                       <div class="progress" style="width: 45%;"></div>
-                   </div>
-               </div>
-
-               <div class="skill">
-                   <p>SQL</p>
-                   <div class="progress-bar">
-                       <div class="progress" style="width: 57%;"></div>
+                   <div class="img">
+                      <a href="certificadoPythonSantander.pdf" class="btn" target=”_blank” attribute style="color: #ff5733; text-decoration: none;">Certificado en Python</a>
                    </div>
                </div>
            </section>
         </div>
 
-        <!-- Contenedor Blanco -->
         <div class="right-side">
             <section class="profile">
                 <h2>Perfil</h2>
@@ -138,6 +92,19 @@
               </ul>
             </section>
         </div>
+        <a href="indexEN.html" class="lang-switch-btn" id="languageButton">English</a>
+        <script>
+            const button = document.getElementById("languageButton");
+            const currentUrl = window.location.href;
+
+            if (currentUrl.includes("indexEN.html")) {
+                button.href = "index.html"; // Cambiar a la versión en español
+                button.textContent = "Español"; // Texto del botón
+            } else {
+                button.href = "indexEN.html"; // Cambiar a la versión en inglés
+                button.textContent = "English"; // Texto del botón
+            }
+        </script>
     </div>
 </body>
 </html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Gordun Alejandro</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+    <div class="cv-container">
+        <div class="left-side">
+            <header>
+                <img src="cv.jpg" alt="Gordun Alejandro" class="profile-pic">
+                <h1>Gordun Alejandro</h1>
+                <p>+54 221 6078259 | <a href="https://www.linkedin.com/in/alejandro-gordun-54948715b/" style="color: #ff5733; text-decoration: none;">Mi LikedIn</a></p>
+            </header>
+
+            <section class="contact">
+                <h2>Contacto</h2>
+                <ul>
+                    <li><strong>Cellphone:</strong> +54 221 6078259</li>
+                    <li><strong>Email:</strong> omegazeloth@gmail.com</li>
+                </ul>
+            </section>
+
+            <section class="Certificados">
+               <h2>Certificaciones</h2>
+
+               <div class="skill">
+                   <div class="img">
+                       <a href="certificadoIAGenerativa.pdf" class="btn" target=”_blank” attribute style="color: #ff5733; text-decoration: none;">Generative AI certificate</a>
+                   </div>
+               </div>
+
+               <div class="skill">
+                   <div class="img">
+                      <a href="certificadoPythonSantander.pdf" class="btn" target=”_blank” attribute style="color: #ff5733; text-decoration: none;">Python certificate</a>
+                   </div>
+               </div>
+           </section>
+        </div>
+
+        <div class="right-side">
+            <section class="profile">
+                <h2>Profile</h2>
+                <p>Creative and professional.Specialized in web design, programming, and app development. I am a cheerful, ambitious, and resilient individual. I never stop until I achieve my goals.</p>
+            </section>
+
+            <section class="education">
+                <h2>Academic background</h2>
+                <ul>
+                    <li>Universidad Nacional de La Plata - Analista Programador Universitario (2024 - ongoing)</li>
+                    <li>Universidad Nacional de La Plata - Estudiante en Diseño Multimedial (2019 - ongoing)</li>
+                    <li>Universidad Nacional de La Plata - Mechanical Engineering (2016 - 2018)</li>
+                    <li>Colegio Nacional Rafael Hernández - High School Diploma (2010 - 2015)</li>
+                </ul>
+            </section>
+
+            <section class="experience">
+                <h2>Professional experience</h2>
+                <h3>Freelance Web Developer and Application Designer (2019 - Present)</h3>
+                <ul>
+                    <li>Development and maintenance of websites using HTML, CSS, JavaScript, and frameworks like React.</li>
+                    <li>Creation of mobile applications with intuitive design and robust functionality.</li>
+                    <li>Implementation of 3D and 2D experiences using Unity and Processing.</li>
+                    <li>Collaboration with clients to define requirements and deliver projects on time.</li>
+                </ul>
+            </section>
+
+            <section class="skills">
+                <h2>Technical skills</h2>
+                <ul>
+                    <li>Programming languages: C#, C++, Java, HTML, CSS, JavaScript, PowerShell, SQL.</li>
+                    <li>Graphic design: Creation of flyers, advertisements, and video editing.</li>
+                    <li>Development of 3D and 2D experiences with Unity and Processing.</li>
+                    <li>Design tools: Adobe Photoshop, Illustrator, Premiere Pro.</li>
+                </ul>
+            </section>
+
+            <section class="works">
+              <h2>Some works done</h2>
+              <ul>
+                <li>
+                  <a href="https://mega.nz/file/2f4g3JqK#K15b5iLcyKJyh0KSO8teiRvYk4HZNla8xkgqDh36ILg" style="color: #ff5733; text-decoration: none;">Learn how Binary works</a>
+                </li>
+                <li>
+                  <a href="portfolio.html" class="btn" style="color: #ff5733; text-decoration: none;">Portfolio web mockup</a>
+                </li>
+                <li>
+                  <a href="agency.html" class="btn" style="color: #ff5733; text-decoration: none;">Agency web mockup</a>
+                </li>
+              </ul>
+            </section>
+        </div>
+        <a href="indexEN.html" class="lang-switch-btn" id="languageButton">English</a>
+        <script>
+            const button = document.getElementById("languageButton");
+            const currentUrl = window.location.href;
+
+            if (currentUrl.includes("indexEN.html")) {
+                button.href = "index.html"; // Cambiar a la versión en español
+                button.textContent = "Español"; // Texto del botón
+            } else {
+                button.href = "indexEN.html"; // Cambiar a la versión en inglés
+                button.textContent = "English"; // Texto del botón
+            }
+        </script>
+    </div>
+</body>
+</html>

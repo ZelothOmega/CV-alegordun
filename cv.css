@@ -30,26 +30,19 @@ body {
 }
 
 /* Sección de habilidades de programación */
-.programming-languages .skill {
+.Certificados .skill {
     margin-bottom: 15px;
 }
 
-.programming-languages p {
+.Certificados a {
     margin: 0;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-.progress-bar {
-    background-color: #ecf0f1;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.progress {
-    background-color: #27ae60;
-    height: 20px;
-    border-radius: 5px 0 0 5px;
+.img{
+  width: auto;
+  height: auto;
 }
 
 .profile-pic {
@@ -119,6 +112,27 @@ header p {
     min-width: 100%;
     box-sizing: border-box;
     padding: 20px;
+}
+
+.lang-switch-btn {
+    position: fixed; /* Siempre fijo en la pantalla */
+    bottom: 20px; /* A 20px del borde inferior */
+    right: 20px; /* A 20px del borde derecho */
+    background-color: #007BFF; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 14px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar por el botón */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: 1000; /* Siempre visible encima de otros elementos */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.lang-switch-btn:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el cursor */
 }
 /* Media Queries */
 
